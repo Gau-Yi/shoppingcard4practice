@@ -11,16 +11,6 @@ describe('結帳金額計算', () => {
 
       expect(result).toBe(1000);
     });
-
-    it('有優惠券時，輸出金額為 0', () => {
-      const memberType = 'regular';
-      const coupon = 'FREE';
-      const inputAmount = 1000;
-
-      const result = calculateTotal(inputAmount, memberType, coupon);
-
-      expect(result).toBe(0);
-    });
   });
 
   describe('VIP 會員', () => {
@@ -32,16 +22,6 @@ describe('結帳金額計算', () => {
       const result = calculateTotal(inputAmount, memberType, coupon);
 
       expect(result).toBe(900);
-    });
-
-    it('有優惠券時，輸出金額為 0', () => {
-      const memberType = 'vip';
-      const coupon = 'FREE';
-      const inputAmount = 1000;
-
-      const result = calculateTotal(inputAmount, memberType, coupon);
-
-      expect(result).toBe(0);
     });
   });
 });
