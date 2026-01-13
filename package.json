@@ -1,0 +1,24 @@
+{
+  "name": "shoppingcard4practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "checkout.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gau-Yi/shoppingcard4practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gau-Yi/shoppingcard4practice/issues"
+  },
+  "homepage": "https://github.com/Gau-Yi/shoppingcard4practice#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
